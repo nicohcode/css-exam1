@@ -1,5 +1,12 @@
 
 
+.container {
+
+
+
+}
+
+
   h1 + h3 {
    margin-top: 0;
    padding-top: 0;
@@ -13,15 +20,18 @@
    padding: 0;
   }
 
-.container {
-
-
-
-
+h4.linknames {
+color: #BF5700;
+font-size: 20px;
 
 
 }
 
+
+p.byline {
+    text-transform: capitalize;
+}
+p.regular{
 
 
 }
