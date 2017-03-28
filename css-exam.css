@@ -10,7 +10,25 @@ background-color: white;
 
 padding: 30px 30px 30px 30px;
 
+
+
+
 }
+
+
+.left-column {
+width: 70%;
+float: left;
+
+}
+
+
+.right-column{
+width: 30%;
+float: right;
+}
+
+
 
 body{
 
