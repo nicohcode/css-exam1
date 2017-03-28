@@ -1,3 +1,6 @@
+@media(min-width: 0px) {
+
+
 
 
 .container {
@@ -10,6 +13,7 @@ background-color: white;
 
 padding: 30px 30px 30px 30px;
 
+overflow: auto;
 
 
 
@@ -53,14 +57,25 @@ h4.linknames {
 color: #BF5700;
 font-size: 20px;
 
+margin: 0px;
+}
+
+h4.linknamess{
+  font-size: 15px;
+  margin: 0px;
+
 
 }
 
 
 p.bl {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    color: grey;
+    margin: 0px;
+
 }
 p.reg {
+  margin: 0px;
 
 
 }
@@ -69,7 +84,6 @@ p.reg {
 .sone{
 
   background-color: lightgrey;
-  font-size: 20px;
   padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
@@ -85,7 +99,14 @@ h3.motto{
 
 h3.more{
 
+  border-style: solid;
+  border-left-color: white;
+  border-right-color: white;
+  border-top-color: white;
 
+
+
+}
 
 
 }
